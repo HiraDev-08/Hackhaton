@@ -1,4 +1,4 @@
-import numpty as np
+import numpy as np
 from scipy.stats import norm
 
 def z_score(x, mean, std):
@@ -21,3 +21,4 @@ def normal_pdf(x,mean,std):
  
     x = np.array(x)
     return norm.pdf(x,mean,std)
+
